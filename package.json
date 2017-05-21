@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.1.4",
+    "express": "^4.14.0",
+    "next": "beta",
+    "next-routes": "^1.0.25",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "styled-components": "^2.0.0-17"
+  }
+}
