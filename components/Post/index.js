@@ -7,6 +7,7 @@ const PostItem = ({ post }) => (
     <Link route='post' params={{ slug: post.title }}>
       <a>{post.title}</a>
     </Link>
+    <p>{post.body}</p>
   </Wrapper>
 )
 

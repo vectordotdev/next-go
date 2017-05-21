@@ -1,12 +1,19 @@
 import React from 'react'
 import Link from 'next/link'
+import styled from 'styled-components'
 import Layout from 'layouts/Main';
 import { getPost } from 'api/posts'
 
+const Wrapper = styled.div`
+  padding: 15px;
+`
+
 const IndexPage = ({ post }) => (
   <Layout>
-    <h1>{post.title}</h1>
-    <p>{post.body}</p>
+    <Wrapper>
+      <h1>{post.title}</h1>
+      <p>{post.body}</p>
+    </Wrapper>
   </Layout>
 )
 

@@ -5,15 +5,19 @@ const Wrapper = styled.footer`
   padding: 15px;
   border-bottom: 1px solid #ddd;
   display: flex;
+  background: #387EF5;
 
-  a { padding: 0 15px; }
+  a {
+    padding: 0 15px;
+    color: #FFF;
+  }
 `;
 
 const Header = () => (
   <Wrapper>
     <Link href='/'><a>Home</a></Link> |
-    <Link href='/about'><a>About</a></Link> |
-    <Link href='/contact'><a>Contact</a></Link>
+    <Link href='/about' prefetch><a>About</a></Link> |
+    <Link href='/contact' prefetch><a>Contact</a></Link>
   </Wrapper>
 )
 
