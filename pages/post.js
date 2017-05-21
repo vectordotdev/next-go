@@ -6,6 +6,13 @@ import { getPost } from 'api/posts'
 
 const Wrapper = styled.div`
   padding: 3rem;
+  max-width: 750px;
+  margin: 0 auto;
+
+  @media (max-width: 750px) {
+    width: 100%;
+    padding: 1rem;
+  }
 
   h1 {
     color: #222;
