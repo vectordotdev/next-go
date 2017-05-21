@@ -9,19 +9,28 @@ const Wrapper = styled.div`
     display: block;
 
     &:hover {
-      background: #EBEDEB;
+      background: #F5F5F5;
+
+      h3 { color: #387EF5 }
     }
   }
 
   h3 {
-    color: #3D4953;
-    font-size: 18px;
+    color: #222;
     font-weight: bold;
+    font-size: 1.75rem;
+    line-height: 35px;
+    font-family: "PT Sans", sans-serif;
+    text-transform: capitalize;
+    margin: 0;
   }
 
   p {
-    color: #AAB0B0;
-    font-size: 14px;
+    font-size: 1.2rem;
+    line-height: 35px;
+    color: #444;
+    font-family: "PT Serif", sans-serif;
+    margin: 0;
   }
 `;
 

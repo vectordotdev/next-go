@@ -5,7 +5,23 @@ import Layout from 'layouts/Main';
 import { getPost } from 'api/posts'
 
 const Wrapper = styled.div`
-  padding: 15px;
+  padding: 3rem;
+
+  h1 {
+    color: #222;
+    font-weight: bold;
+    font-size: 1.75rem;
+    line-height: 35px;
+    font-family: "PT Sans", sans-serif;
+    text-transform: capitalize;
+    margin: 0;
+  }
+
+  p {
+    line-height: 28px;
+    color: #666;
+    font-family: "PT Sans", sans-serif;
+  }
 `
 
 const IndexPage = ({ post }) => (
