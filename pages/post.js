@@ -31,7 +31,7 @@ const Wrapper = styled.div`
   }
 `
 
-const IndexPage = ({ post }) => (
+const PostPage = ({ post }) => (
   <Layout>
     <Wrapper>
       <h1>{post.title}</h1>
@@ -40,10 +40,10 @@ const IndexPage = ({ post }) => (
   </Layout>
 )
 
-IndexPage.getInitialProps = async ({ query }) => {
+PostPage.getInitialProps = async ({ query }) => {
   const res = await getPost(query.slug)
   const json = await res.json()
   return { post: json[0] }
 }
 
-export default IndexPage
+export default PostPage
