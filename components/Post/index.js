@@ -5,9 +5,11 @@ import Wrapper from './Wrapper'
 const PostItem = ({ post }) => (
   <Wrapper>
     <Link route='post' params={{ slug: post.title }}>
-      <a>{post.title}</a>
+      <a>
+        <h3>{post.title}</h3>
+        <p>{post.body}</p>
+      </a>
     </Link>
-    <p>{post.body}</p>
   </Wrapper>
 )
 
