@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
-import Layout from '../layouts/Main';
-import { getPost } from '../api/posts'
+import Layout from 'layouts/Main';
+import { getPost } from 'api/posts'
 
 const IndexPage = ({ post }) => (
   <Layout>

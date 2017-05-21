@@ -1,7 +1,7 @@
 import React from 'react'
-import Layout from '../layouts/Main';
-import { getPosts } from '../api/posts'
-import { Link } from '../routes'
+import Layout from 'layouts/Main';
+import { getPosts } from 'api/posts'
+import { Link } from 'routes'
 
 import Post from 'components/Post'
 
