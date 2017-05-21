@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import styled from 'styled-components';
 
-const Wrapper = styled.footer`
+const Wrapper = styled.nav`
   padding: 15px;
   border-bottom: 1px solid #ddd;
   display: flex;
@@ -13,7 +13,7 @@ const Wrapper = styled.footer`
   }
 `;
 
-const Header = () => (
+const Nav = () => (
   <Wrapper>
     <Link href='/'><a>Home</a></Link> |
     <Link href='/about' prefetch><a>About</a></Link> |
@@ -21,4 +21,4 @@ const Header = () => (
   </Wrapper>
 )
 
-export default Header;
+export default Nav;
