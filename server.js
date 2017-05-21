@@ -12,10 +12,6 @@ app.prepare()
   const server = express()
   server.use(handler)
 
-  server.get('/', (req, res) => {
-    return app.render(req, res, '/', req.query)
-  })
-
   server.get('*', (req, res) => {
     return handle(req, res)
   })
