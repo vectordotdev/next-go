@@ -2,9 +2,10 @@
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js"
+    "start": "NODE_PATH=. NODE_ENV=production node server.js"
   },
   "dependencies": {
+    "babel-plugin-module-resolver": "^2.7.1",
     "babel-plugin-styled-components": "^1.1.4",
     "express": "^4.14.0",
     "next": "beta",

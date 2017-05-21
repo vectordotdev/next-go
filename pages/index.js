@@ -3,15 +3,13 @@ import Layout from '../layouts/Main';
 import { getPosts } from '../api/posts'
 import { Link } from '../routes'
 
+import Post from 'components/Post'
+
 const IndexPage = ({ posts }) => (
   <Layout>
     <ul>
       {posts.map(p => (
-        <li>
-          <Link route='post' params={{ slug: p.fields.slug }}>
-            {p.fields.title}
-          </Link>
-        </li>
+        <Post key={p.title} post={p} />
       ))}
     </ul>
   </Layout>
@@ -19,7 +17,8 @@ const IndexPage = ({ posts }) => (
 
 IndexPage.getInitialProps = async ({ req }) => {
   const res = await getPosts()
-  return { posts: res.items }
+  const json = await res.json()
+  return { posts: json }
 }
 
 export default IndexPage
