@@ -5,19 +5,31 @@
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "start": "NODE_PATH=. NODE_ENV=production node server.js"
+    "start": "NODE_PATH=. NODE_ENV=production node server.js",
+    "lint": "standard 'api/*' 'components/*' 'layouts/*' 'pages/*' 'styles/*' 'routes.js' 'server.js'",
+    "precommit": "lint-staged"
   },
   "dependencies": {
+    "babel-eslint": "^7.2.3",
     "babel-plugin-module-resolver": "^2.7.1",
     "babel-plugin-styled-components": "^1.1.7",
     "express": "^4.15.4",
+    "lint-staged": "^4.0.3",
     "next": "^3.0.6",
     "next-routes": "^1.0.40",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "standard": "^10.0.3",
     "styled-components": "^2.1.2"
   },
   "now": {
     "alias": "next-go"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "ignore": ["**/node_modules/**"]
+  },
+  "lint-staged": {
+    "*.js": "standard"
   }
 }
