@@ -1,4 +1,7 @@
 {
+  "name": "next-go",
+  "description": "Production ready blog + boilerplate for Next.js",
+  "license": "MIT",
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
@@ -6,13 +9,13 @@
   },
   "dependencies": {
     "babel-plugin-module-resolver": "^2.7.1",
-    "babel-plugin-styled-components": "^1.1.4",
-    "express": "^4.14.0",
-    "next": "beta",
-    "next-routes": "^1.0.25",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "styled-components": "^2.0.0-17"
+    "babel-plugin-styled-components": "^1.1.7",
+    "express": "^4.15.4",
+    "next": "^3.0.6",
+    "next-routes": "^1.0.40",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "styled-components": "^2.1.2"
   },
   "now": {
     "alias": "next-go"
