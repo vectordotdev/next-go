@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const Wrapper = styled.div`
   border-bottom: 1px solid #ddd;
@@ -32,6 +32,6 @@ const Wrapper = styled.div`
     font-family: "PT Serif", sans-serif;
     margin: 0;
   }
-`;
+`
 
-export default Wrapper;
+export default Wrapper

@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const Wrapper = styled.footer`
   display: flex;
@@ -8,6 +8,6 @@ const Wrapper = styled.footer`
   main {
     flex: 1;
   }
-`;
+`
 
-export default Wrapper;
+export default Wrapper

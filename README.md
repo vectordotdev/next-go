@@ -5,7 +5,7 @@ Production ready Next.js app with the following:
 - [x] Next.js 3.X
 - [x] absolute imports
 - [x] styled-components
-- [ ] eslint
+- [x] eslint with [standard](https://github.com/standard/standard)
 - [x] next-routes
 - [x] express
 - [ ] timber logging

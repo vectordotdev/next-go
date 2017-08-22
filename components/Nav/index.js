@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const Wrapper = styled.nav`
   padding: 15px;
@@ -11,7 +11,7 @@ const Wrapper = styled.nav`
     padding: 0 15px;
     color: #FFF;
   }
-`;
+`
 
 const Nav = () => (
   <Wrapper>
@@ -21,4 +21,4 @@ const Nav = () => (
   </Wrapper>
 )
 
-export default Nav;
+export default Nav

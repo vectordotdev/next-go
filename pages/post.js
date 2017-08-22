@@ -1,7 +1,6 @@
 import React from 'react'
-import Link from 'next/link'
 import styled from 'styled-components'
-import Layout from 'layouts/Main';
+import Layout from 'layouts/Main'
 import { getPost } from 'api/posts'
 
 const Wrapper = styled.div`
@@ -31,14 +30,17 @@ const Wrapper = styled.div`
   }
 `
 
-const PostPage = ({ post }) => (
+const PostPage = ({ post }) =>
   <Layout>
     <Wrapper>
-      <h1>{post.title}</h1>
-      <p>{post.body}</p>
+      <h1>
+        {post.title}
+      </h1>
+      <p>
+        {post.body}
+      </p>
     </Wrapper>
   </Layout>
-)
 
 PostPage.getInitialProps = async ({ query }) => {
   const res = await getPost(query.slug)
