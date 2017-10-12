@@ -14,6 +14,4 @@ Production ready Next.js app with the following:
 
 Some basic styles are included, they look like:
 
-<a href="https://github.com/timberio/next-go">
-  <img alt="next-go" src="https://www.dropbox.com/s/pxy9tc5gjovyvyd/Screenshot%202017-05-21%2014.21.28.png?dl=1" height="300px" />
-</a>
+[![next-go](./docs/next-go.png)](https://github.com/timberio/next-go)
