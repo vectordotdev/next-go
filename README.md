@@ -2,7 +2,7 @@
 
 Production ready Next.js app with the following:
 
-- [x] Next.js 3.X
+- [x] Next.js 4.X
 - [x] absolute imports
 - [x] styled-components
 - [x] eslint with [standard](https://github.com/standard/standard)
