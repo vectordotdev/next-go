@@ -10,18 +10,18 @@
     "precommit": "lint-staged"
   },
   "dependencies": {
-    "babel-eslint": "^7.2.3",
+    "babel-eslint": "^8.0.1",
     "babel-plugin-module-resolver": "^2.7.1",
-    "babel-plugin-styled-components": "^1.1.7",
-    "express": "^4.15.4",
+    "babel-plugin-styled-components": "^1.2.1",
+    "express": "^4.16.2",
     "husky": "^0.14.3",
-    "lint-staged": "^4.0.3",
-    "next": "^3.0.6",
-    "next-routes": "^1.0.40",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
+    "lint-staged": "^4.2.3",
+    "next": "^4.0.3",
+    "next-routes": "^1.1.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
     "standard": "^10.0.3",
-    "styled-components": "^2.1.2"
+    "styled-components": "^2.2.1"
   },
   "now": {
     "alias": "next-go"
@@ -33,6 +33,9 @@
     ]
   },
   "lint-staged": {
-    "*.js": ["standard --fix", "git add"]
+    "*.js": [
+      "standard --fix",
+      "git add"
+    ]
   }
 }
