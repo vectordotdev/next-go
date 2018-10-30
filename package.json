@@ -12,14 +12,14 @@
   "dependencies": {
     "babel-eslint": "^8.0.1",
     "babel-plugin-module-resolver": "^2.7.1",
-    "babel-plugin-styled-components": "^1.2.1",
-    "express": "^4.16.2",
+    "babel-plugin-styled-components": "1.8.0",
+    "express": "4.16.4",
     "husky": "^0.14.3",
     "lint-staged": "^4.2.3",
     "next": "^4.0.3",
     "next-routes": "^1.1.0",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "react": "16.6.0",
+    "react-dom": "16.6.0",
     "standard": "^10.0.3",
     "styled-components": "^2.2.1"
   },
